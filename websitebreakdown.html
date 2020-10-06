@@ -14,6 +14,7 @@ Night Blue: #2d545e
 Night Blue Shadow: #12343b  
 Coral Pink: #ff5e6c
 Purple Mountains Majesty: #8076a3
+Heavy Purple: #191e36
     
     Fonts:
     font-family: 'Kurale', serif;
@@ -23,23 +24,34 @@ Purple Mountains Majesty: #8076a3
     
     */
 body {
-	background-color:  #12343b ;
-	color: white; /*text color */
-    font-family: 'Open Sans', sans-serif; /*body font*/
+
+	color: white; 
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: left;
 }
     
 h1 {
-   font-family: 'Pacifico', cursive; /*title font*/
+   font-family: 'Pacifico', cursive; 
     color: #e1b382;
+    font-weight: 100;
+    font-size: 2.5em;
+    line-height: 1.3;
+ 
+    text-align: center;
 }
 
 h2 {
-       font-family: 'Kurale', serif;
-
-    color:#8076a3;
+    font-family: 'Kurale', serif;
+    color:#c89666 ;
+    font-size: 1.5em;
+    text-align: left;
 }
 a{
-	color: #c89666 ;
+	color: #8076a3 ;
 	transition: color 200ms ease-in;
 	text-decoration: none;
 }
@@ -48,20 +60,52 @@ a:hover {
 }
     
 img{
-    width:45%;
+    width:100%;
+}
+    
+.background1 {
+        background: #12343b;
+        
     }
+
+.background2 {
+        background: #191e36;
+        
+    }    
+    
+.background3 {
+         background: #2d545e;
+       
+    }
+    
+
+.container {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+    
+
+    
 </style>
 <body>
-    <div id="container">
+    
+    <section class="background1">
+  
         		<div id="header">
-                <h1>Website Breakdown - MMP350</h1>   
+                <div class="container">
+                <h1>Website Breakdown - MMP 350</h1>   
+                
+        <p>Welcome to my webpage! I'm Mike Nguyen Leister and taking Advanced Web Design or MMP350 this spring at the Borough of Manhattan Community College. In summary, I'll break down how to create an  account and log in on <a href="https://www.disneyplus.com/"><em>Disney +</em> </a>. Enjoy!</p> <br>
                 </div>
-        <p>Welcome to my webpage. My name is Mike Nguyen Leister. I'm taking Advanced Web Design or MMP350 this spring at the Borough of Manhattan Community College. In summary, I will break down how to create an  account and log in on <a href="https://www.disneyplus.com/"><em>Disney +</em> </a>. Enjoy!</p> <br>
-    </div>
-
-    <div id="breakdown">
+        </div>
+  
+    </section>            
+    <section class="background2">
+        <div class="container">
         
-        <section class="i">
         <h2>I. Visit <a href="https://www.disneyplus.com/">www.disneyplus.com</a></h2>
         <p>This will take you the main page. Once you arrive, click the <a href="https://www.disneyplus.com/login" alt="login"><b><em>LOG IN</em></b></a> button on the upper right.</p><br>
         <img src="images/disneyplus1.png" alt="main page">
@@ -73,13 +117,14 @@ img{
         <h2>III. Email</h2>
         <p>Enter your email and click the <b><em>AGREE & CONTINUE</em></b> button.</p>
         <img src="images/disneyplus2.png" alt="email">
-        
-        
+        </div>
+    </section>    
+    <section class="background3">
+          <div class="container">
         <h2>IV. Password</h2>
         <p>Create your password based on the required parameters of <b><em>6 characters (case sensitve) with at least one number or special character</em></b>.</p>
         <img src="images/disneyplus3.png" alt="password">
-        </section>
-        
+       
         <h2>V. Payment</h2>
         <p>Choose your payment plan, add your credit card data, and click <b><em>AGREE & SUBSCRIBE</em></b> button.</p>
         <img src="images/disneyplus4.png" alt="payment">
@@ -87,14 +132,19 @@ img{
         <h2>VI. Log In</h2>
         <p>Log in and click the <em><b>CONTINUE</b></em> button.</p>
         <img src="images/disneyplus5.png" alt="login">
+        </div>
         
+    </section>
+    <section class="background1">
+          <div class="container">
         <h2>VII. Profile</h2>
         <p>Modify your profile by clicking on the <b><em>profile</em></b> button in the upper right of the screen.</p><br>
         <img src="images/disneyplus6.png" alt="profile">
         <p>Click any anything in the dropdown menu to update your profile.</p><br>
         <img src="images/disneyplus7.png" alt="profile +">        
         
-         <h2>VIII. Account</h2>
+    
+        <h2>VIII. Account</h2>
         <p>Update your account at any time by clicking the <b><em>account</em></b> button in the profile drop-down on the upper right of the screen.</p><br>
         <img src="images/disneyplus8.png" alt="profile">
         
@@ -106,31 +156,30 @@ img{
         <p>Click the <b>+</b> button.</p><br> 
         
         <img src="images/disneyplus9.png" alt="add movies">
-        
+        </div>
+    </section>
+    <section class="background2">   
+          <div class="container">
         <h2>X. Profile Avatar</h2>
         <p>Go back to the profile drop-down menu and click the <b><em>profile +</em></b> button to find a profile avatar. Click on any image that you want as your avatar. </p><br>
         <img src="images/disneplusaddprofileimage.png" alt="avatar">
          <p>Click the <b><em>SAVE</em></b> button. </p><br>
         <img src="images/disneplusaddprofileimage2.png" alt="avatar">
         
+    
         <h2>XI.App Settings</h2>
         <p>Go back to the profile drop-down menu and click the <b><em>App Settings</em></b> button to modify your app setting that best works for your device. Click the <b><em>SAVE</em></b>.</p><br>
         
         <img src="images/disneyplusappsettings.png">
-        
+        </div>
+    </section>
+    <section class="background3">
+         <div class="container">
         <h2>Conclusion</h2>
         <p>There are many other neat features to the <a href="https://www.disneyplus.com/"><em>Disney +</em> </a> steaming service, but once you sign up and play around with the app, you'll find all the cool, additional features and content at your disposal! </p><br>
         <img src="images/disneyplusthend.png">
-        
-       
-
-
-        
-        
-        
-
-    </div>
-    
-    
+        </div>
+    </section>
+     
 </body>
     
