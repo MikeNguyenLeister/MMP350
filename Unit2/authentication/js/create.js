@@ -15,11 +15,11 @@ signupButton.onclick = function(){
     promise.then(updateUser)
     
     function updateUser(credentials){
-    const userInfo = {
-        displayName: signupUsername.value    
-    };
+        const userInfo = {
+            displayName: signupUsername.value
+        };
     credentials.user.updateProfile(userInfo);
-    alert("Succesfully created a user!")
+    alert("Succesfully created a user!");
     }
     promise.catch(function(error){
         console.log(error);
