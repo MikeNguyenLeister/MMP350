@@ -2,10 +2,9 @@
 @import "css/typography-3.css";
 
 /*typographic pairing 1*/
-
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Montserrat&display=swap');
 /*typographic pairing 2 */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Nunito:wght@400;700&display=swap');
 /*typographic pairing 3 */
-
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat&display=swap');
