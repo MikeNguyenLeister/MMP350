@@ -1,0 +1,24 @@
+  /*  font-family: 'Barlow Semi Condensed', sans-serif;
+
+    font-family: 'Montserrat', sans-serif; */
+
+    .post {
+    	font-family: 'Montserrat', sans-serif; 
+    	line-height: 3em;
+    }
+
+    .post-text{
+    	font-size: 3.25em;
+    	font-family: 'Barlow Semi Condensed', sans-serif;
+    	word-spacing: 0.25em;
+    	line-height: 1.25em;
+    	background: white;
+    }
+
+    .post-info{
+	font-size: 1.5em;
+	color: gray;
+    }
+.post-author {
+	color: darkblue;
+}
