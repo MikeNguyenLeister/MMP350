@@ -11,15 +11,15 @@ signupButton.onclick = function(){
     const email = signupEmail.value;
     const password = signupPassword.value;
     //firebase.auth().createUserWithEmailAndPassword(email, password);
-    const promise = firebase.auth().createUserWithEmailAndPassword(email, password);
+    const promise = firebase.auth().createUserWithEmailAndPassword(email,password);
     promise.then(updateUser)
     
     function updateUser(credentials){
         const userInfo = {
-            displayName: signupUsername.value
+           displayName: signupUsername.value 
         };
-    credentials.user.updateProfile(userInfo);
-    alert("Succesfully created a user!");
+   credentials.user.updateProfile(userInfo);
+    alert("Succesfully created a User!");
     }
     promise.catch(function(error){
         console.log(error);
