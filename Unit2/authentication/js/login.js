@@ -7,7 +7,8 @@ loginButton.onclick = function() {
     const password = loginPassword.value;
     //firebase.auth().signInWithEmailAndPassword(email, password);
     const promise = firebase.auth().signInWithEmailAndPassword(email, password);
-    const promise.then(alert("Succesful Log In!"));
+    promise.then(alert("Succesfully Logged In!"));
+    
     //error message
     promise.catch(function(error){
         console.log(error);
