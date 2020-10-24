@@ -9,18 +9,22 @@
 
     .post-text{
     	font-size: 3.25em;
+        font-weight: bold;
     	font-family: 'Barlow Semi Condensed', sans-serif;
-    	word-spacing: 0.25em;
-    	line-height: 1.25em;
+    	word-spacing: 0.15em;
+    	line-height: 1.15em;
     	background: white;
     }
 
     .post-info{
 	font-size: 1.5em;
+        line-height: 2.5em;
 	color: gray;
-    font-family: 'Montserrat', sans-serif;     
+    font-family: 'Montserrat', sans-serif;  
+        
     }
 .post-author {
 	color: darkblue;
     font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
 }
