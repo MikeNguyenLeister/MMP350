@@ -1,0 +1,43 @@
+/*  font-family: 'Inconsolata', monospace;
+font-family: 'Nunito', sans-serif; */
+#container{
+    background: #3c2d82;
+}
+
+    .post {
+    	font-family: 'Nunito', sans-serif;
+    	line-height: 3em;
+    }
+    
+    .post-text{
+    	font-size: 2.45em;
+        font-weight: 700;
+    	font-family: 'Inconsolata', monospace;
+    	word-spacing: .01em;
+    	line-height: 1.3em;
+        color: white;
+        font-style: italic;
+    	
+     
+        width: 90%;
+        height: 90%;
+        padding-left: 5%;
+    }
+
+    .post-info{
+	font-size: 1.5em;
+    line-height: 2.5em;
+	color: gray;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 15%;
+    font-weight: 400;
+    color: #f8521c;
+        
+    }
+.post-author {
+  color: lightgrey;
+   font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    
+}

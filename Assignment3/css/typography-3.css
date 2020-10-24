@@ -1,0 +1,43 @@
+/*          font-family: 'Merriweather', serif;
+
+    font-family: 'Oswald', sans-serif; */
+#container{
+    background: #b7e4cf;
+}
+
+    .post {
+       font-family: 'Merriweather', serif;
+    	line-height: 3em;
+    }
+    
+    .post-text{
+    	font-size: 3.2em;
+    	font-family: 'Oswald', sans-serif;
+    	word-spacing: .2em;
+    	line-height: 1.25em;
+        color: #575893;
+        font-weight: 700;
+    	
+     
+        width: 80%;
+        height: 90%;
+        padding-left: 10%;
+    }
+
+    .post-info{
+	font-size: 1.25em;
+    line-height: 3.5em;
+	color: gray;
+     font-family: 'Merriweather', serif;
+    padding-left: 10%;
+    font-weight: 300;
+    color: #232444;
+    
+        
+    }
+.post-author {
+    color: #232444;
+ font-family: 'Merriweather', serif;
+      font-weight: bold;
+  
+}
