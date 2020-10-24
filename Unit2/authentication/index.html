@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-
+<html>
 <head>
-</head>
-<title></title>
-<!--firebase sdk setup-->
+    <title>Login Page</title>
+    <!--firebase sdk setup-->
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
@@ -29,8 +28,15 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
-<body>
-
-</body>
-<html>
+    </head>
+    <body>
+        
+        <div id="login">
+            <input type="text" id="login-email" placeholder="Email">
+            <input type="password" id="login-password" placeholder="Password">
+            <button id="login-button">Login</button>
+            <p><a href="create.html">Create a new account</a></p>
+        </div>
+        <script src="js/login.js"></script>
+    </body>
 </html>
