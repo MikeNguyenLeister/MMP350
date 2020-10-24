@@ -18,7 +18,9 @@
     .post-info{
 	font-size: 1.5em;
 	color: gray;
+    font-family: 'Montserrat', sans-serif;     
     }
 .post-author {
 	color: darkblue;
+    font-family: 'Montserrat', sans-serif; 
 }
