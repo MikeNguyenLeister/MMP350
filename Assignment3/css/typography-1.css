@@ -13,7 +13,8 @@
     	font-family: 'Barlow Semi Condensed', sans-serif;
     	word-spacing: 0.15em;
     	line-height: 1.15em;
-    	background: white;
+    	background: #27bdbe;
+        color: white;
     }
 
     .post-info{
