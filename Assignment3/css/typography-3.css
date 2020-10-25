@@ -1,16 +1,20 @@
 /*          font-family: 'Merriweather', serif;
 
     font-family: 'Oswald', sans-serif; */
-#container{
-    background: #b7e4cf;
+#container3{
+    background: red;
+     max-width: 700px;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
-    .post {
+    .post3 {
        font-family: 'Merriweather', serif;
     	line-height: 3em;
     }
     
-    .post-text{
+    .post-text3{
     	font-size: 3.2em;
     	font-family: 'Oswald', sans-serif;
     	word-spacing: .2em;
@@ -24,18 +28,18 @@
         padding-left: 10%;
     }
 
-    .post-info{
+    .post-info3{
 	font-size: 1.25em;
     line-height: 3.5em;
 	color: gray;
      font-family: 'Merriweather', serif;
-    padding-left: 10%;
+    padding-left: 5%;
     font-weight: 300;
     color: #232444;
     
         
     }
-.post-author {
+.post-author3 {
     color: #232444;
  font-family: 'Merriweather', serif;
       font-weight: bold;

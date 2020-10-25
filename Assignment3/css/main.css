@@ -1,5 +1,5 @@
 body {
-	background: black;
+	background: SlateGrey;
 	height:100%;
 }
 
@@ -19,3 +19,22 @@ body {
 	padding-left:100px;
 	padding-right:100px;
 }
+
+a:link {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkgrey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {  
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+}  text-decoration: underline;

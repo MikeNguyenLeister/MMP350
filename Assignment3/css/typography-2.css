@@ -1,22 +1,26 @@
 /*  font-family: 'Inconsolata', monospace;
 font-family: 'Nunito', sans-serif; */
-#container{
+#container2{
     background: #3c2d82;
+    max-width: 700px;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	
 }
 
-    .post {
+    .post2 {
     	font-family: 'Nunito', sans-serif;
     	line-height: 3em;
     }
     
-    .post-text{
+    .post-text2{
     	font-size: 2.45em;
         font-weight: 700;
     	font-family: 'Inconsolata', monospace;
     	word-spacing: .01em;
     	line-height: 1.3em;
         color: white;
-        font-style: italic;
     	
      
         width: 90%;
@@ -24,20 +28,20 @@ font-family: 'Nunito', sans-serif; */
         padding-left: 5%;
     }
 
-    .post-info{
+    .post-info2{
 	font-size: 1.5em;
-    line-height: 2.5em;
+    line-height: 2em;
 	color: gray;
     font-family: 'Nunito', sans-serif;
-    padding-left: 15%;
+    padding-left: 5%;
     font-weight: 400;
     color: #f8521c;
+    word-spacing: .1em;
         
     }
-.post-author {
+.post-author2 {
   color: lightgrey;
    font-family: 'Nunito', sans-serif;
     font-weight: bold;
-    font-style: italic;
     
 }
