@@ -36,10 +36,10 @@ function createPost(data){
 
 	const text = createDiv('post-text', data.text)
 	const info = createDiv('post-info');
-	const author
+	const author = createDiv('post-author',date.uid)
 
 	const d = new Date(date.date);
-	const date = createDiv('post-date', d.getMonth() + "/" d.
+	const date = createDiv('post-date', (d.getMonth() + "/" d.
 		getdate() + "/" d.getFullYear());	
 
 		
