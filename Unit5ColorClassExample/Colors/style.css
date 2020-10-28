@@ -1,0 +1,47 @@
+#triadic{
+ --main-hue: 60;
+ --main: hsl(var(--main-hue), 50%, 50%);
+ --accent-one-hue: calc(var(--main-hue) - 120);
+--accent-one: hsl(var(--accent-one-hue), 50%, 50%);
+--accent-two-hue: calc(var(--main-hue) + 120);
+--accent-two: hsl(var(--accent-two-hue), 50%, 50%);
+}
+
+#analogous{
+ --main-hue: 24;
+ --main: hsl(var(--main-hue), 81%, 88%);
+ --accent-one-hue: calc(var(--main-hue) - 45);
+--accent-one: hsl(var(--accent-one-hue), 50%, 75%);
+--accent-two-hue: calc(var(--main-hue) + 15);
+--accent-two: hsl(var(--accent-two-hue), 50%, 50%);
+}
+  
+#complementary{
+ --main-hue: 270;
+ --main: hsl(var(--main-hue), 50%, 50%);
+ --accent-one-hue: calc(var(--main-hue) - 180);
+--accent-one: hsl(var(--accent-one-hue), 25%, 75%);
+--accent-two-hue: var(--main-hue);
+--accent-two: hsl(var(--accent-two-hue), 50%, 50%);
+}
+
+#monochromatic {
+  --main-hue: 60;
+  --main: hsl(var(--main-hue), 80%, 50%);
+  --accent-one: hsl(var(--main-hue),20%, 25%);
+  --accent-two: hsl(var(--main-hue), 75%,75%)
+}
+
+.post {
+  font-size: 2em;
+}
+.post-text{
+  background-color: var(--main)
+}
+.post-date{
+  background-color: var(--accent-one)
+}
+.post-author{
+  background-color: var(--accent-two)
+}
+
