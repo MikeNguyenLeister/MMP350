@@ -1,52 +1,49 @@
-/* it works */
 const publishButton = document.getElementById('submit-post');
 const postInput = document.getElementById('post-body');
 
-//if someone clicks the pubutton, publish post!
-
+// if the person clicks the button, publish the post
 publishButton.addEventListener('click', publishPost);
 
+
 function publishPost(){
-	//console.log(postInput.value);
-	const post = {};
+	const post = {}; // we will store our post information here
 	post.text = postInput.value;
-	//console.log(post.text);
+	console.log(post.text);
 	post.date = Date.now();
-	//console.log(post.date);
+	console.log(post.date);
 	post.uid = "username";
+	console.log(post.uid);
 
+	postInput.value=""; // reset the post input so it doesn't post the same post twice.
 
-	console.log(post); 
-		postInput.value = "";
-		createPost(post);
+	// create the post
+	createPost(post);
 }
 
 function createDiv(_class, text){
-	const div = document.createElement('div')
-	div.classList.add('_class');
-	div.textContent = "test 123";
+	const div = document.createElement('div');
+	div.classList.add(_class);
+	div.textContent = text;
 	return div;
-	//need to do this 5 times based on div counts (see 1:11:02, but you can also create function that does this)
-
+	//5x see 1:11:02
 }
 
 function createPost(data){
-	console.log(data);
 	const post = createDiv('post');
 
-	const text = createDiv('post-text', data.text)
+	const text = createDiv('post-text', data.text);
 	const info = createDiv('post-info');
-	const author = createDiv('post-author',date.uid)
+	const author = createDiv('post-author', "by " + data.uid)
+	const d = new Date(data.date);
+	const date = createDiv('post-date', "on " + (d.getMonth()+1) + '/' + d.getDate() +'/'+ d.getFullYear());
 
-	const d = new Date(date.date);
-	const date = createDiv('post-date', (d.getMonth() + "/" d.
-		getdate() + "/" d.getFullYear());	
+	post.appendChild(text);
+	post.appendChild(info);
+	info.appendChild(author);
+	info.appendChild(date);
 
-		
-}
-
-
-
-
-
+	// we'll put up the posts in reverse chronological order
+	posts.insertBefore(post,posts.firstElementChild);
+    
+    //create two files in the future (see 38:20 of YouTube 3rd video of chapter)
 }
