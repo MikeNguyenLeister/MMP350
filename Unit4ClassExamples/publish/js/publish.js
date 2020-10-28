@@ -43,4 +43,6 @@ function createPost(data){
 
 	// we'll put up the posts in reverse chronological order
 	posts.insertBefore(post,posts.firstElementChild);
+    
+    //create two files in the future (see 38:20 of YouTube 3rd video of chapter)
 }
