@@ -36,6 +36,7 @@ function createPost(data){
 	const d = new Date(data.date);
 	const date = createDiv('post-date', "on " + (d.getMonth()+1) + '/' + d.getDate() +'/'+ d.getFullYear());
 
+
 	post.appendChild(text);
 	post.appendChild(info);
 	info.appendChild(author);
@@ -43,4 +44,8 @@ function createPost(data){
 
 	// we'll put up the posts in reverse chronological order
 	posts.insertBefore(post,posts.firstElementChild);
+
+
+
+
 }

@@ -1,37 +1,71 @@
+<!--Assignment: Publishing a post, structuring posts and styling posts.
+
+    Create an HTML page for your users to publish a new post. You do not need to connect to your firebase database yet. You do need to connect your HTML page to a JavaScript script that can detect when the user clicks on the publish button.
+
+    Use JavaScript to create the structure for each new post, including the post text, author and date.
+    Use CSS to style your publish page and your posts. Make sure to play with typography.
+    Choose a color scheme (complementary, triad, monochromatic, analogous or combination) for your page. Use one color as your main color, and use CSS custom properties to define two to four other colors. Implement those colors for the text, buttons, and the background.
+
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Publish Example</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<div id="monochromatic">
+<body class="body-color">
+
+
+
+<div id="title-wrapper"><div id="title">If I...</div><h3>Your Show & Movie 
+<span style='font-size:125px;'>&#128488;</span> </h3></div>
+<!--https://www.w3schools.com/charsets/tryit.asp?deci=128488 !-->
+<div id="wrapper">
+
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="post.html">Posts</a></li>
+  <li><a href="#">Contact</a></li>
+  <li style="float:right"><a href="#">Login</a></li>
+</ul>
+</div>
+
 	<div id="container">
+	
+
 
 		<div id="heading">
-			<h1>Publishing a Post Example</h1>
+			<h1>If I were...</h1>
 		</div>
 
 		<!-- elements to let users write a new post -->
-		<div id="write-post">
+		<div id="write-post" class="monochromatic">
 			<div>
-				<textarea id="post-body" placeholder="What's on your mind?"></textarea></div>
+				<textarea id="post-body" placeholder="If you were [insert movie/show director or character], then what would you do and why? "></textarea></div><br>
 			<div>
-				<button id="submit-post">Publish</button>
+				<button id="submit-post">Post</button>
 			</div>
 		</div>
 
 		<!-- elements to show the posts -->
 		<div id="posts">
 			<div class="post">
-				<div class="post-text">I skate where the puck is going to be, not to where it has been.</div>
-				<div class="post-info">
-					by <span class="post-author">Wayne Gretzky</span>
-					<div class="post-date">on Monday, January 1, 1999</div>
+				<h1></h1>
+				<div class="post-text">Making Bran Stark king? SMH &#128544 @ #DavidBenioff & #DBWeiss. <br><br>
+
+					If I were David Benioff and D.B. Weiss (showrunners for Game of Thrones), I would've made Sansa Stark Queen of the Seven Kingdoms because she's a tactician (she got the reinforcements to win the Battle of the Bastards); she's ruthless (she sentenced Little Finger and Ramsay Bolton to death); and she's a wise ruler (she has a track record of making sound decisions while ruling the North and putting weak men in their place). <br><br>
+
+				 <div class="tenor-gif-embed" data-postid="4018905" data-share-method="host" data-width="100%" data-aspect-ratio="2.2133333333333334"><a href="https://tenor.com/view/game-of-thrones-sansa-stark-robin-arryn-talk-shit-fire-and-ice-gif-4018905">Talk Shit, Get Hit - Game Of Thrones GIF</a> from <a href="https://tenor.com/search/gameofthrones-gifs">Gameofthrones GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+				<div class="post-info"><br>
+					by <span class="post-author">MumOfDracarys  &#128293;</span><div class="post-date">on Monday, Oct 1, 2020</div>
 				</div>
 			</div>
 		</div>
 
 	</div> <!-- end of container -->
+</div>
 
 	<!-- Scripts -->
 	<script src="js/publish.js"></script>

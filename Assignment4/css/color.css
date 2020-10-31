@@ -1,0 +1,76 @@
+#monochromatic {
+  --main-hue: 0;
+  --main: hsl(var(--main-hue), 75%, 50%);
+  --accent-one: hsl(var(--main-hue), 20%, 20%);
+  --accent-two: hsl(var(--main-hue), 75%, 90%);
+   --accent-three: hsl(var(--main-hue), 0%, 0%);
+   --accent-four: hsl(var(--main-hue), 30%, 80%);
+   --accent-five: hsl(var(--main-hue), 100%, 44%);
+   --accent-six: hsl(var(--main-hue), 65%, 95%);
+
+}
+
+
+h1{
+	color: var(--accent-three);
+}
+
+/*nav bar colors */
+
+ul{
+	background-color: var(--accent-three);
+}
+
+li a {
+	  color: var(--accent-two);
+
+}
+
+li a:hover:not(.active) {
+  background-color: var(--accent-one);
+
+ }
+
+.active {
+ color: var(--main);
+}
+
+/*title */
+
+#title-wrapper {
+	color: var(--accent-two);
+
+}
+
+#container{
+	background-color: var(--accent-four);
+}
+
+body{
+background-color: darkred;
+
+}
+
+
+#write-post{
+	background-color: var(--accent-four)
+
+}
+
+.post {
+	background-color: var(--accent-six);
+	border: 1.5px solid var(--accent-one);
+}
+.post-text{
+ color: var(--accent-three)
+
+;
+
+}
+.post-date{
+  color: var(--accent-one)
+}
+.post-author{
+ color: var(--main)
+}
+
