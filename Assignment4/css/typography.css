@@ -15,15 +15,17 @@ font-family: 'Bungee Outline', cursive;
 	margin-bottom: 0%;
 }
 
-
-
+#wrapper {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
 }
+
+
 
 .post-text {
 	font-family: 'Inconsolata', monospace;
 	font-size: 125%;
 	line-height: 2.3em;
-	background-color: var(--main)
 }
 
 .post-info {
