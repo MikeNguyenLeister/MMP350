@@ -1,0 +1,22 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.post-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 300%;
+}
+
+#post-body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 150%;
+}
+
+#submit-post {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 200%;
+}
