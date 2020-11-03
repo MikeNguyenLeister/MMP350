@@ -11,6 +11,8 @@
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-column
 
 https://www.digitalocean.com/community/tutorials/css-css-grid-layout-fr-unit#:~:text=With%20CSS%20Grid%20Layout%2C%20we,the%20grid%20with%20grid%20areas.
+
+https://www.shopify.com/partners/blog/css-grid
 -->
 
     
@@ -19,14 +21,8 @@ https://www.digitalocean.com/community/tutorials/css-css-grid-layout-fr-unit#:~:
 	<!--<link rel="stylesheet" href="style.css">-->
 </head>
     <style>
-   
+        
 
-           
-        body{
-            margin: 0;
-            padding: 0;
-            border: 0;
-        }
         
     #rows {
 	display: grid;
@@ -38,6 +34,7 @@ https://www.digitalocean.com/community/tutorials/css-css-grid-layout-fr-unit#:~:
     text-align: center;
  
 }
+   
     #banner{
     grid-row: 1;
     grid-column: 1/ span 8;
@@ -111,7 +108,7 @@ https://www.digitalocean.com/community/tutorials/css-css-grid-layout-fr-unit#:~:
     #rows2 {
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
-	grid-template-rows: 10% 5%;
+	grid-template-rows: 10% 5% 20% 20% 20% 20% 10%;
     background:gray;
     color:black;
     min-height:768px;
@@ -134,29 +131,332 @@ https://www.digitalocean.com/community/tutorials/css-css-grid-layout-fr-unit#:~:
     background-color: lightblue;
     border: dotted gray 1px;
 
+    }
+        
+        
+    #sidebar2{
+    grid-row: 3/ span 5;
+    grid-column: 1;
+    background-color: lightblue;
+    border: dotted gray 1px;
 
     }
         
+        
+    #contenta{
+    grid-row: 3/ span 2 ;
+    grid-column: 2;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    } 
+    
+    #contentb{
+    grid-row: 3/ span 2 ;
+    grid-column: 3;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    } 
+    #contentc{
+    grid-row: 3/ span 2 ;
+    grid-column: 4;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    } 
+        
+         
+    #contentd{
+    grid-row: 3/ span 2 ;
+    grid-column: 5;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }     
+        
+    #contente{
+    grid-row: 3/ span 2 ;
+    grid-column: 6;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }     
+        
+     #contentf{
+    grid-row: 3/ span 2 ;
+    grid-column: 7;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }  
+     #contentg{
+    grid-row: 3/ span 2 ;
+    grid-column: 8;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }  
+        
+      
+     #contenth{
+    grid-row: 5/ span 2 ;
+    grid-column: 2;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }  
+    
+        
+     #contenti{
+    grid-row: 5/ span 2 ;
+    grid-column: 3;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }  
+       
+     #contentj{
+    grid-row: 5/ span 2 ;
+    grid-column: 4;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }   
+       
+     #contentk{
+    grid-row:5/ span 2 ;
+    grid-column: 5;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }   
+       
+     #contentl{
+    grid-row: 5/ span 2 ;
+    grid-column: 6;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }  
+        
+     #contentm{
+    grid-row: 5/ span 2 ;
+    grid-column: 7;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }  
+        
+     #contentn{
+    grid-row:5/ span 2 ;
+    grid-column: 8;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }  
+      #footer2{
+    grid-row: 7/span 2;
+    grid-column: 1/ span 8;
+    background-color: lightblue;
+    border: dotted gray 1px;
+    }
+        
+        
+ #rows3 {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+     grid-template-rows: 15% 5% 15% 15% 15% 15% 5% 5%;
+    background:gray;
+    color:black;
+    min-height:768px;
+    text-align: center;
+        
+    }
+        
+ 
+    #banner3{
+    grid-row: 1;
+    grid-column: 1/ span 8;
+    background-color: lightblue;
+    border: dotted gray 1px;
+        
+
+    }
+        
+
+    #nav3{
+    grid-row: 2;
+	grid-column: 1/ span 8;
+    background-color: lightblue;
+    border: dotted gray 1px;
+
+    }
+        
+        
+    #sidebar3{
+    grid-row: 3/ span 5;
+    grid-column: 1 / span 2;
+    background-color: lightblue;
+    border: dotted gray 1px;
+
+    
+        
+      }
+        
+    #main2{
+    grid-row: 3/ span 5;
+    grid-column: 6/ span 3;
+    background-color: lightblue; 
+    border: dotted gray 1px;
+
+    }
+        
+    #contentx{
+    grid-row: 3/ span 5 ;
+    grid-column: 3/ span 3;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }  
+        
+    #footer3{
+    grid-row: 8/ span 2;
+    grid-column: 1/ span 8;
+    background-color: lightblue;
+    border: dotted gray 1px;
+    }
+        
+    
+    #rows4 {
+	display: grid;
+	grid-template-columns: 1fr, 2fr, 1fr;
+    grid-template-rows: 15% 5% 15% 15% 15% 15% 5% 5%;
+    background:gray;
+    color:black;
+    min-height:640px;
+    min-width: 360px;
+    text-align: center;
+        
+    }
+        
+    
+    #banner4{
+    grid-row: 1;
+    grid-column: 1/ span 3;
+    background-color: lightblue;
+    border: dotted gray 1px;
+        
+
+    }
+            
+        
+     #nav4{
+    grid-row: 2;
+	grid-column: 1/ span 3;
+    background-color: lightblue;
+    border: dotted gray 1px;
+
+    }
+        
+        
+    #sidebar4{
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    background-color: lightblue;
+    border: dotted gray 1px;
+
+    
+        
+      }
+        
+   
+    #contenty{
+    grid-row: 4;
+    grid-column: 1/ span 3;
+    background-color:lightblue;
+    border: dotted gray 1px;
+
+    }  
+
+    #main3{
+    grid-row: 5;
+    grid-column: 1/ span 3;
+    background-color: lightblue; 
+    border: dotted gray 1px;
+
+    }
+        
+        
+    #footer4{
+    grid-row: 6;
+    grid-column: 1/ span 3;
+    background-color: lightblue;
+    border: dotted gray 1px;
+    }    
+        
+
     </style>
 <body>
     <div id="rows">
-    <nav id="nav">Navbar</nav>
+    <div id="nav">Navbar</div>
     <div id="banner">Banner</div>    
-    <main id="main">Main</main>
+    <div id="main">Main</div>
     <div  id="sidebar">Sidebar</div>
     <div  id="slider">Slider</div>        
    <div id="content1">Content1</div>
         <div id="content2">Content2</div>
-    <footer id="footer" >Footer</footer>
-    </div>
-    <br><br><br>
-    <div id="rows2">
-     <nav id="nav2">Navbar</nav>
-     <div id="banner2">Banner</div>
-      
+    <div id="footer" >Footer</div>
     </div>
     
-
-
+    
+    
+    
+    
+    <br><br><br>
+    
+    <div id="rows2">
+    <div id="nav2">Navbar</div>
+    <div id="banner2">Banner</div>
+     <div  id="sidebar2">Sidebar</div>
+      <div id="contenta">Content1</div>
+    <div id="contentb">Content2</div>
+    <div id="contentc">Content3</div>
+     <div id="contentd">Content4</div>
+        <div id="contente">Content5</div>
+        <div id="contentf">Content6</div>
+        <div id="contentg">Content7</div>
+          <div id="contenth">Content8</div>
+    <div id="contenti">Content9</div>
+    <div id="contentj">Content10</div>
+     <div id="contentk">Content11</div>
+        <div id="contentl">Content12</div>
+        <div id="contentm">Content13</div>
+        <div id="contentn">Content14</div>
+      <div id="footer2" >Footer</div>
+    </div>        
+        
+    <br><br><br>
+         <div id="rows3">
+    <div id="nav3">Navbar</div>
+    <div id="banner3">Banner</div>    
+    <div id="main2">Main</div>
+    <div  id="sidebar3">Sidebar</div>
+   <div id="contentx">Content1</div>
+    <div id="footer3">Footer</div>
+    </div>
+    
+    <br><br><br>
+    
+    
+    <div id="rows4">
+    <div id="nav4">Navbar</div>
+    <div id="banner4">Banner</div>    
+    <div id="main3">Main</div>
+    <div  id="sidebar4">Sidebar</div>
+   <div id="contenty">Content1</div>
+    <div id="footer4">Footer</div>
+    </div>
+      
 </body>
 </html>
