@@ -1,4 +1,4 @@
-.column, .row {
+/*.column, .row {
 	background-color:gray;
 	color:white;
 	border-style: dotted;
@@ -28,7 +28,7 @@
 #container5 {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-gap: 1em; /* add to both columns and rows */
+	grid-gap: 1em; /* add to both columns and rows
 }
 
 #rows {
@@ -53,3 +53,5 @@
 	grid-row: 3;
 	grid-column: 1/ span 12;
 }
+
+/*
