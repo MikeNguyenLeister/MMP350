@@ -330,13 +330,15 @@ https://www.shopify.com/partners/blog/css-grid
     
     #rows4 {
 	display: grid;
-	grid-template-columns: 1fr, 2fr, 1fr;
-    grid-template-rows: 15% 5% 15% 15% 15% 15% 5% 5%;
+	grid-template-columns: 1fr, 1fr, 1fr;
+   grid-template-rows: 10% 10% 55% 15% 10%;
     background:gray;
     color:black;
-    min-height:640px;
-    min-width: 360px;
+    height:640px;
+    width: 360px;
     text-align: center;
+   margin-left: 40%;
+    margin-right: 0%;
         
     }
         
@@ -360,19 +362,9 @@ https://www.shopify.com/partners/blog/css-grid
     }
         
         
-    #sidebar4{
-    grid-row: 3;
-    grid-column: 1 / span 3;
-    background-color: lightblue;
-    border: dotted gray 1px;
-
-    
-        
-      }
-        
    
     #contenty{
-    grid-row: 4;
+    grid-row: 3; 
     grid-column: 1/ span 3;
     background-color:lightblue;
     border: dotted gray 1px;
@@ -380,7 +372,7 @@ https://www.shopify.com/partners/blog/css-grid
     }  
 
     #main3{
-    grid-row: 5;
+    grid-row: 4;
     grid-column: 1/ span 3;
     background-color: lightblue; 
     border: dotted gray 1px;
@@ -389,7 +381,7 @@ https://www.shopify.com/partners/blog/css-grid
         
         
     #footer4{
-    grid-row: 6;
+    grid-row: 5;
     grid-column: 1/ span 3;
     background-color: lightblue;
     border: dotted gray 1px;
@@ -453,7 +445,6 @@ https://www.shopify.com/partners/blog/css-grid
     <div id="nav4">Navbar</div>
     <div id="banner4">Banner</div>    
     <div id="main3">Main</div>
-    <div  id="sidebar4">Sidebar</div>
    <div id="contenty">Content1</div>
     <div id="footer4">Footer</div>
     </div>
