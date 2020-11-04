@@ -16,7 +16,6 @@ max-width: 78%;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: 10% 5% 20% 20% 10% 20% 5%;
     background:gray;
-    color:black;
     min-height:768px;
     text-align: center;
  

@@ -1,0 +1,35 @@
+:root {
+--master-hue: 40;
+}
+
+
+.analogous{
+ --main-hue:  var(--master-hue);
+ --main: hsl(var(--main-hue), 81%, 88%);
+ --accent-one-hue: calc(var(--main-hue) - 45);
+--accent-one: hsl(var(--accent-one-hue), 50%, 75%);
+--accent-two-hue: calc(var(--main-hue) + 15);
+--accent-two: hsl(var(--accent-two-hue), 50%, 50%);
+}
+
+banner{
+background: lightgray;    
+}
+nav{
+background: lightgray;     
+}
+
+body{
+background: lightgray;     
+}
+
+.wrapper{
+    
+}
+
+#container{
+    background: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
+}
