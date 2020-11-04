@@ -8,388 +8,67 @@
     Using CSS Grid rules with columns and rows, implement three different possibilities for the website grid.
     Explain why you chose your layouts. You may use this template to write your explanation.
 
+                    Works Cited: 
+
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-column
 
 https://www.digitalocean.com/community/tutorials/css-css-grid-layout-fr-unit#:~:text=With%20CSS%20Grid%20Layout%2C%20we,the%20grid%20with%20grid%20areas.
 
 https://www.shopify.com/partners/blog/css-grid
+
+https://www.w3schools.com/css/css_align.asp
+
+https://www.w3schools.com/css/css_navbar_horizontal.asp 
+
+https://www.w3schools.com/howto/howto_css_search_button.asp 
+
+https://www.tutorialspoint.com/css/css_positioning.htm
+
+https://css-tricks.com/snippets/html/mailto-links/
 -->
 
     
-
 	<title>Grid Project</title>
 	<!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-    <style>
-        
 
-        
-    #rows {
-	display: grid;
-	grid-template-columns: repeat(8, 1fr);
-	grid-template-rows: 10% 5% 20% 20% 10% 20% 5%;
-    background:gray;
-    color:black;
-    min-height:768px;
-    text-align: center;
- 
-}
-   
-    #banner{
-    grid-row: 1;
-    grid-column: 1/ span 8;
-    background-color: lightblue;
-    border: dotted gray 1px;
-        
-
-    }
-        
-
-    #nav{
-    grid-row: 2;
-	grid-column: 1/ span 8;
-    background-color: lightblue;
-    border: dotted gray 1px;
-
-
-    }
-        
-   
-    #slider{
-    grid-row:3;
-    grid-column: 3/ span 8;
-    background-color: lightblue;
-    border: dotted gray 1px;
-
-    }
-        
-    #main{
-    grid-row:4;
-    grid-column: 3/ span 8;
-    background-color: lightblue; 
-    border: dotted gray 1px;
-
-    }
-        
-    #sidebar{
-    grid-row: 3/ span 4;
-    grid-column: 1/ span 2;
-    background-color: lightblue;
-    border: dotted gray 1px;
-
-    }
+    <banner><div class="wrapper"> <h1 id="lavaboards">Lava Boards</h1> <form class="example" action="/action_page.php" style="margin-left: 75%; max-width:400px">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+        </div> 
+        <!--search see https://www.w3schools.com/howto/howto_css_search_button.asp-->
     
-    #content1{
-    grid-row: 5 / span 2;
-    grid-column: 3/ span 3;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    } 
-        
-    #content2 {
-    grid-row: 5 / span 2;
-    grid-column: 6/ span 3;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    } 
-        
-    
-    #footer{
-    grid-row: 7 / span 2;
-    grid-column: 1/ span 8;
-    background-color: lightblue;
-    border: dotted gray 1px;
-
-    }
-        
-       
-    #rows2 {
-	display: grid;
-	grid-template-columns: repeat(8, 1fr);
-	grid-template-rows: 10% 5% 20% 20% 20% 20% 10%;
-    background:gray;
-    color:black;
-    min-height:768px;
-    text-align: center;
-        
-    }
-    #banner2{
-    grid-row: 1;
-    grid-column: 1/ span 8;
-    background-color: lightblue;
-    border: dotted gray 1px;
-        
-
-    }
-        
-
-    #nav2{
-    grid-row: 2;
-	grid-column: 1/ span 8;
-    background-color: lightblue;
-    border: dotted gray 1px;
-
-    }
-        
-        
-    #sidebar2{
-    grid-row: 3/ span 5;
-    grid-column: 1;
-    background-color: lightblue;
-    border: dotted gray 1px;
-
-    }
-        
-        
-    #contenta{
-    grid-row: 3/ span 2 ;
-    grid-column: 2;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    } 
-    
-    #contentb{
-    grid-row: 3/ span 2 ;
-    grid-column: 3;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    } 
-    #contentc{
-    grid-row: 3/ span 2 ;
-    grid-column: 4;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    } 
-        
-         
-    #contentd{
-    grid-row: 3/ span 2 ;
-    grid-column: 5;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }     
-        
-    #contente{
-    grid-row: 3/ span 2 ;
-    grid-column: 6;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }     
-        
-     #contentf{
-    grid-row: 3/ span 2 ;
-    grid-column: 7;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }  
-     #contentg{
-    grid-row: 3/ span 2 ;
-    grid-column: 8;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }  
-        
-      
-     #contenth{
-    grid-row: 5/ span 2 ;
-    grid-column: 2;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }  
-    
-        
-     #contenti{
-    grid-row: 5/ span 2 ;
-    grid-column: 3;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }  
-       
-     #contentj{
-    grid-row: 5/ span 2 ;
-    grid-column: 4;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }   
-       
-     #contentk{
-    grid-row:5/ span 2 ;
-    grid-column: 5;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }   
-       
-     #contentl{
-    grid-row: 5/ span 2 ;
-    grid-column: 6;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }  
-        
-     #contentm{
-    grid-row: 5/ span 2 ;
-    grid-column: 7;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }  
-        
-     #contentn{
-    grid-row:5/ span 2 ;
-    grid-column: 8;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }  
-      #footer2{
-    grid-row: 7/span 2;
-    grid-column: 1/ span 8;
-    background-color: lightblue;
-    border: dotted gray 1px;
-    }
-        
-        
- #rows3 {
-	display: grid;
-	grid-template-columns: repeat(8, 1fr);
-     grid-template-rows: 15% 5% 15% 15% 15% 15% 5% 5%;
-    background:gray;
-    color:black;
-    min-height:768px;
-    text-align: center;
-        
-    }
-        
- 
-    #banner3{
-    grid-row: 1;
-    grid-column: 1/ span 8;
-    background-color: lightblue;
-    border: dotted gray 1px;
-        
-
-    }
-        
-
-    #nav3{
-    grid-row: 2;
-	grid-column: 1/ span 8;
-    background-color: lightblue;
-    border: dotted gray 1px;
-
-    }
-        
-        
-    #sidebar3{
-    grid-row: 3/ span 5;
-    grid-column: 1 / span 2;
-    background-color: lightblue;
-    border: dotted gray 1px;
-
-    
-        
-      }
-        
-    #main2{
-    grid-row: 3/ span 5;
-    grid-column: 6/ span 3;
-    background-color: lightblue; 
-    border: dotted gray 1px;
-
-    }
-        
-    #contentx{
-    grid-row: 3/ span 5 ;
-    grid-column: 3/ span 3;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }  
-        
-    #footer3{
-    grid-row: 8/ span 2;
-    grid-column: 1/ span 8;
-    background-color: lightblue;
-    border: dotted gray 1px;
-    }
-        
-    
-    #rows4 {
-	display: grid;
-	grid-template-columns: 1fr, 1fr, 1fr;
-   grid-template-rows: 10% 10% 55% 15% 10%;
-    background:gray;
-    color:black;
-    height:640px;
-    width: 360px;
-    text-align: center;
-   margin-left: 40%;
-    margin-right: 0%;
-        
-    }
-        
-    
-    #banner4{
-    grid-row: 1;
-    grid-column: 1/ span 3;
-    background-color: lightblue;
-    border: dotted gray 1px;
-        
-
-    }
+    </banner>
+    <nav>
+        <div class="wrapper">
+<ul>
+  <li><a class="active" href="#home">HOME</a></li>
+  <li><a href="#">BRANDS</a></li>
+  <li><a href="#">SKATES</a></li> 
+    <li><a href="#">ACCESSORIES</a></li> 
+  <li><a href="#">CLOTHES</a></li> 
+  <li><a a href="mailto:michael.leister@stu.bmcc.cuny.edu">EMAIL</a></li>
+   <li><a href="#">LOGIN</a></li>
+</ul>
             
+            
+            
+        </div>
+</nav> 
+    <body>
+        <div id="container"> 
+                            
+                                <h2>About</h2>
+            <p class="type"><b>Lava Boards &copy;
+</b> is a startup selling contemporary, skateboard merchandise from Hawaiian, Filipino, and Japanese brands while promoting a culture of inclusivity, equitable living, environmental sustainability, hope, love, and individuality. As they say in Hawaii, "Nānā i ke kumu" or "know your truth." </p>
+            <br>
+                <h2>Grid Designs</h2>
+            <p class="type"> <b>Grid Design 1</b> is made as a the home page layout. <em>Banner</em> would  include the logo/title and search bar; <em>slider</em> would advertise new products; <em>sidebar</em> would let users  customize search criteria by category and build their skateboard; <em>footer</em> would allow for other promotional materials, and <em>main</em> and <em>content</em> would explain content, show off products and store news, and link user to the store gallery.</p>
+            <br>
         
-     #nav4{
-    grid-row: 2;
-	grid-column: 1/ span 3;
-    background-color: lightblue;
-    border: dotted gray 1px;
-
-    }
-        
-        
-   
-    #contenty{
-    grid-row: 3; 
-    grid-column: 1/ span 3;
-    background-color:lightblue;
-    border: dotted gray 1px;
-
-    }  
-
-    #main3{
-    grid-row: 4;
-    grid-column: 1/ span 3;
-    background-color: lightblue; 
-    border: dotted gray 1px;
-
-    }
-        
-        
-    #footer4{
-    grid-row: 5;
-    grid-column: 1/ span 3;
-    background-color: lightblue;
-    border: dotted gray 1px;
-    }    
-        
-
-    </style>
-<body>
     <div id="rows">
     <div id="nav">Navbar</div>
     <div id="banner">Banner</div>    
@@ -401,12 +80,10 @@ https://www.shopify.com/partners/blog/css-grid
     <div id="footer" >Footer</div>
     </div>
     
+    <br>
     
-    
-    
-    
-    <br><br><br>
-    
+            <p class="type"> <b>Grid Design 2</b> is made to be a store gallery for browsing after user clicks a content link or searches in the sidebar.</p>
+            <br>
     <div id="rows2">
     <div id="nav2">Navbar</div>
     <div id="banner2">Banner</div>
@@ -428,7 +105,10 @@ https://www.shopify.com/partners/blog/css-grid
       <div id="footer2" >Footer</div>
     </div>        
         
-    <br><br><br>
+    <br>
+             <p class="type"> <b>Grid Design 3</b> is a closeup when user clicks on one of the gallery items.</p>
+            <br>
+            
          <div id="rows3">
     <div id="nav3">Navbar</div>
     <div id="banner3">Banner</div>    
@@ -438,8 +118,11 @@ https://www.shopify.com/partners/blog/css-grid
     <div id="footer3">Footer</div>
     </div>
     
-    <br><br><br>
-    
+    <br>
+            
+              <p class="type"> <b>Grid Design 4</b> is an example of a breakpoint for mobile phone users.</p>
+            <br>
+            
     
     <div id="rows4">
     <div id="nav4">Navbar</div>
@@ -448,6 +131,6 @@ https://www.shopify.com/partners/blog/css-grid
    <div id="contenty">Content1</div>
     <div id="footer4">Footer</div>
     </div>
-      
+        </div>
 </body>
 </html>

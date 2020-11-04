@@ -1,0 +1,43 @@
+/* 
+font-family: 'Frijole', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+h1{
+ font-family: 'Frijole', cursive;
+ font-size: 2.4em;
+}
+
+h2{
+    text-align: center;
+        line-height: .3em;
+
+}
+
+.type{
+font-family: 'Montserrat', sans-serif;
+    font-size: .85em;
+    line-height: 1.5em;
+    
+}
+
+.lavaboards{
+    font-family: 'Frijole', cursive;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+font-size: 1em;
+}
+
+.wrapper{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+
+}
+
+#container{
+ font-family: 'Oswald', sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+}
