@@ -1,6 +1,6 @@
 
 .wrapper {
-    max-width: 85%;
+    max-width: 80%;
     margin: 0 auto;
     padding: 15px 0;
 }
@@ -402,5 +402,5 @@ form.example::after {
 
 /* positioning https://www.tutorialspoint.com/css/css_positioning.htm */        
 #lavaboards{
-position:absolute; left: 6%; top: .15%;             
+position:absolute; left: 10.5%; top: .15%;             
 }
