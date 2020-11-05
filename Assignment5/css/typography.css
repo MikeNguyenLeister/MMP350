@@ -41,3 +41,23 @@ font-size: 1em;
     font-size: 1.25em;
     font-weight: 400;
 }
+
+#rows{
+     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase; 
+}
+
+#rows2{
+     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase; 
+}
+
+#rows3{
+     font-family: 'Oswald', sans-serif;
+     text-transform: uppercase; 
+}
+
+#rows4{
+     font-family: 'Oswald', sans-serif;
+     text-transform: uppercase; 
+}

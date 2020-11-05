@@ -1,27 +1,329 @@
-:root {
---master-hue: 40;
-}
 
-
-.analogous{
- --main-hue:  var(--master-hue);
- --main: hsl(var(--main-hue), 81%, 88%);
+#analogous1{
+ --main-hue: 0;
+ --main: hsl(var(--main-hue), 81%, 56%);
  --accent-one-hue: calc(var(--main-hue) - 45);
 --accent-one: hsl(var(--accent-one-hue), 50%, 75%);
 --accent-two-hue: calc(var(--main-hue) + 15);
 --accent-two: hsl(var(--accent-two-hue), 50%, 50%);
 }
 
-banner{
-background: lightgray;    
+#analogous2{
+ --main-hue: 0;
+ --main: hsl(var(--main-hue), 81%, 56%);
+ --accent-one-hue: calc(var(--main-hue) - 45);
+--accent-one: hsl(var(--accent-one-hue), 50%, 75%);
+--accent-two-hue: calc(var(--main-hue) + 15);
+--accent-two: hsl(var(--accent-two-hue), 50%, 50%);
 }
+
+#analogous{
+ --main-hue: 0;
+ --main: hsl(var(--main-hue), 81%, 56%);
+ --accent-one-hue: calc(var(--main-hue) - 45);
+--accent-one: hsl(var(--accent-one-hue), 50%, 75%);
+--accent-two-hue: calc(var(--main-hue) + 15);
+--accent-two: hsl(var(--accent-two-hue), 80%, 60%);
+--accent-three: hsl(var(--accent-two-hue), 80%, 50%);
+--accent-four: hsl(var(--accent-two-hue), 80%, 40%);
+--accent-five: hsl(var(--accent-two-hue), 80%, 30%);
+--accent-six: hsl(var(--accent-two-hue), 80%, 20%);
+--accent-seven: hsl(var(--accent-two-hue), 80%, 10%);
+--accent-eight: hsl(var(--accent-two-hue), 80%, 5%);
+--accent-nine: hsl(var(--accent-two-hue), 80%, 1%);
+    --accent-ten: hsl(var(--accent-two-hue), 80%, 70%);
+    --accent-eleven: hsl(var(--accent-two-hue), 80%, 0%);
+}
+
+#rows{
+    color: white;
+}
+ #banner{
+     
+background-color: var(--accent-two)
+   
+        
+
+    }   
+        
+
+#nav{
+   
+background-color: var(--accent-three)
+
+    }
+        
+   
+    #slider{
+background-color: var(--accent-four)
+
+    }
+        
+    #main{
+ background-color: var(--accent-five)
+    }
+        
+    #sidebar{
+background-color: var(--accent-six)
+   
+
+    }
+    
+    #content1{
+background-color:var(--accent-seven)
+ 
+    } 
+        
+    #content2 {
+background-color: var(--accent-eight)
+ 
+
+    } 
+        
+    
+    #footer{
+  background-color: var(--accent-nine)
+    }
+        
+
+
+#rows2 {
+    color: white;
+        
+    }
+    #banner2{
+  
+    background-color: var(--accent-ten)
+
+        
+
+    }
+        
+
+    #nav2{
+   
+    background-color: var(--accent-two)
+
+
+    }
+        
+        
+    #sidebar2{
+
+    background-color:var(--accent-three)
+  
+
+    }
+        
+        
+    #contenta{
+
+    background-color:var(--accent-four)
+ 
+
+    } 
+    
+    #contentb{
+ 
+    background-color:var(--accent-five)
+ 
+
+
+    } 
+    #contentc{
+
+    background-color: var(--accent-six)
+
+    } 
+        
+         
+    #contentd{
+
+    background-color:var(--accent-seven)
+;
+
+
+    }     
+        
+    #contente{
+ 
+    background-color:var(--accent-eight)
+  
+
+    }     
+        
+     #contentf{
+    
+    background-color:var(--accent-nine)
+    
+
+    }  
+     #contentg{
+
+    background-color:var(--accent-eleven)
+ 
+
+    }  
+        
+      
+     #contenth{
+
+    background-color:var(--accent-four)
+  
+
+    }  
+    
+        
+     #contenti{
+
+    background-color:var(--accent-five)
+  
+
+    }  
+       
+     #contentj{
+ 
+    background-color:var(--accent-six)
+  
+
+    }   
+       
+     #contentk{
+
+    background-color:var(--accent-seven)
+  
+
+    }   
+       
+     #contentl{
+ 
+    background-color:var(--accent-eight)
+  
+
+    }  
+        
+     #contentm{
+   
+    background-color:var(--accent-nine)
+   
+
+    }  
+        
+     #contentn{
+ 
+    background-color:var(--accent-eleven)
+   
+
+    }  
+      #footer2{
+  
+   background-color:var(--accent-two)
+    }
+
+
+
+#rows3{
+    color:white;
+}
+#nav3{
+    background-color: var(--accent-three)
+}
+
+#banner3{
+    background-color: var(--accent-two)
+}  
+
+#main2{
+    background-color: var(--accent-six)
+}
+
+#sidebar3{
+    background-color: var(--accent-four)
+}
+
+#contentx{
+    background-color: var(--accent-five)
+}
+
+#footer3{
+    background-color: var(--accent-seven)
+
+}
+
+
+  
+    #rows4 {
+    color: white;
+    }
+        
+    
+    #banner4{
+    
+    background-color: var(--accent-two)
+   
+        
+
+    }
+            
+        
+     #nav4{
+   
+    background-color: var(--accent-three)
+   
+
+    }
+        
+        
+   
+    #contenty{
+    
+    background-color:var(--accent-four)
+
+    }  
+
+    #main3{
+  
+    background-color: var(--accent-five)
+
+    }
+        
+        
+    #footer4{
+    
+    background-color: var(--accent-six)
+
+    }    
+
+
+
+h1{
+    color: red;
+}
+
+h2{
+    color:  var(--accent-two);
+}
+
+b{
+    color: red;
+}
+
+banner{
+background-color:     #cec5cd;
+}
+
 nav{
-background: lightgray;     
+background-color:      #cec5cd;
+
+
 }
 
 body{
-background: lightgray;     
+  background-color:    #cec5cd;
+
+
 }
+
 
 .wrapper{
     

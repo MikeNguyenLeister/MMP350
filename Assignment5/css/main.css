@@ -24,7 +24,6 @@ max-width: 78%;
     #banner{
     grid-row: 1;
     grid-column: 1/ span 8;
-    background-color: lightblue;
     border: dotted gray 1px;
         
 
@@ -34,7 +33,6 @@ max-width: 78%;
     #nav{
     grid-row: 2;
 	grid-column: 1/ span 8;
-    background-color: lightblue;
     border: dotted gray 1px;
 
 
@@ -44,7 +42,6 @@ max-width: 78%;
     #slider{
     grid-row:3;
     grid-column: 3/ span 8;
-    background-color: lightblue;
     border: dotted gray 1px;
 
     }
@@ -52,7 +49,6 @@ max-width: 78%;
     #main{
     grid-row:4;
     grid-column: 3/ span 8;
-    background-color: lightblue; 
     border: dotted gray 1px;
 
     }
@@ -60,7 +56,6 @@ max-width: 78%;
     #sidebar{
     grid-row: 3/ span 4;
     grid-column: 1/ span 2;
-    background-color: lightblue;
     border: dotted gray 1px;
 
     }
@@ -68,7 +63,6 @@ max-width: 78%;
     #content1{
     grid-row: 5 / span 2;
     grid-column: 3/ span 3;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     } 
@@ -76,7 +70,6 @@ max-width: 78%;
     #content2 {
     grid-row: 5 / span 2;
     grid-column: 6/ span 3;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     } 
@@ -85,7 +78,6 @@ max-width: 78%;
     #footer{
     grid-row: 7 / span 2;
     grid-column: 1/ span 8;
-    background-color: lightblue;
     border: dotted gray 1px;
 
     }
@@ -96,7 +88,6 @@ max-width: 78%;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: 10% 5% 20% 20% 20% 15% 10%;
     background:gray;
-    color:black;
     min-height:768px;
     text-align: center;
         
@@ -104,7 +95,6 @@ max-width: 78%;
     #banner2{
     grid-row: 1;
     grid-column: 1/ span 8;
-    background-color: lightblue;
     border: dotted gray 1px;
         
 
@@ -114,7 +104,6 @@ max-width: 78%;
     #nav2{
     grid-row: 2;
 	grid-column: 1/ span 8;
-    background-color: lightblue;
     border: dotted gray 1px;
 
     }
@@ -123,7 +112,6 @@ max-width: 78%;
     #sidebar2{
     grid-row: 3/ span 5;
     grid-column: 1;
-    background-color: lightblue;
     border: dotted gray 1px;
 
     }
@@ -132,7 +120,6 @@ max-width: 78%;
     #contenta{
     grid-row: 3/ span 2 ;
     grid-column: 2;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     } 
@@ -140,14 +127,12 @@ max-width: 78%;
     #contentb{
     grid-row: 3/ span 2 ;
     grid-column: 3;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     } 
     #contentc{
     grid-row: 3/ span 2 ;
     grid-column: 4;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     } 
@@ -156,7 +141,6 @@ max-width: 78%;
     #contentd{
     grid-row: 3/ span 2 ;
     grid-column: 5;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }     
@@ -164,7 +148,6 @@ max-width: 78%;
     #contente{
     grid-row: 3/ span 2 ;
     grid-column: 6;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }     
@@ -172,14 +155,12 @@ max-width: 78%;
      #contentf{
     grid-row: 3/ span 2 ;
     grid-column: 7;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }  
      #contentg{
     grid-row: 3/ span 2 ;
     grid-column: 8;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }  
@@ -188,7 +169,6 @@ max-width: 78%;
      #contenth{
     grid-row: 5/ span 2 ;
     grid-column: 2;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }  
@@ -197,7 +177,6 @@ max-width: 78%;
      #contenti{
     grid-row: 5/ span 2 ;
     grid-column: 3;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }  
@@ -205,7 +184,6 @@ max-width: 78%;
      #contentj{
     grid-row: 5/ span 2 ;
     grid-column: 4;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }   
@@ -213,7 +191,6 @@ max-width: 78%;
      #contentk{
     grid-row:5/ span 2 ;
     grid-column: 5;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }   
@@ -221,7 +198,6 @@ max-width: 78%;
      #contentl{
     grid-row: 5/ span 2 ;
     grid-column: 6;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }  
@@ -229,7 +205,6 @@ max-width: 78%;
      #contentm{
     grid-row: 5/ span 2 ;
     grid-column: 7;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }  
@@ -237,14 +212,12 @@ max-width: 78%;
      #contentn{
     grid-row:5/ span 2 ;
     grid-column: 8;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }  
       #footer2{
     grid-row: 7/span 2;
     grid-column: 1/ span 8;
-    background-color: lightblue;
     border: dotted gray 1px;
     }
         
@@ -254,7 +227,6 @@ max-width: 78%;
 	grid-template-columns: repeat(8, 1fr);
      grid-template-rows: 15% 5% 15% 15% 15% 15% 5% 5%;
     background:gray;
-    color:black;
     min-height:768px;
     text-align: center;
         
@@ -264,7 +236,6 @@ max-width: 78%;
     #banner3{
     grid-row: 1;
     grid-column: 1/ span 8;
-    background-color: lightblue;
     border: dotted gray 1px;
         
 
@@ -274,7 +245,6 @@ max-width: 78%;
     #nav3{
     grid-row: 2;
 	grid-column: 1/ span 8;
-    background-color: lightblue;
     border: dotted gray 1px;
 
     }
@@ -283,7 +253,6 @@ max-width: 78%;
     #sidebar3{
     grid-row: 3/ span 5;
     grid-column: 1 / span 2;
-    background-color: lightblue;
     border: dotted gray 1px;
 
     
@@ -293,7 +262,6 @@ max-width: 78%;
     #main2{
     grid-row: 3/ span 5;
     grid-column: 6/ span 3;
-    background-color: lightblue; 
     border: dotted gray 1px;
 
     }
@@ -301,7 +269,6 @@ max-width: 78%;
     #contentx{
     grid-row: 3/ span 5 ;
     grid-column: 3/ span 3;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }  
@@ -309,7 +276,6 @@ max-width: 78%;
     #footer3{
     grid-row: 8/ span 2;
     grid-column: 1/ span 8;
-    background-color: lightblue;
     border: dotted gray 1px;
     }
         
@@ -319,7 +285,6 @@ max-width: 78%;
 	grid-template-columns: 1fr, 1fr, 1fr;
    grid-template-rows: 10% 10% 55% 15% 10%;
     background:gray;
-    color:black;
     height:640px;
     width: 360px;
     text-align: center;
@@ -331,7 +296,6 @@ margin: auto;
     #banner4{
     grid-row: 1;
     grid-column: 1/ span 3;
-    background-color: lightblue;
     border: dotted gray 1px;
         
 
@@ -341,7 +305,6 @@ margin: auto;
      #nav4{
     grid-row: 2;
 	grid-column: 1/ span 3;
-    background-color: lightblue;
     border: dotted gray 1px;
 
     }
@@ -351,7 +314,6 @@ margin: auto;
     #contenty{
     grid-row: 3; 
     grid-column: 1/ span 3;
-    background-color:lightblue;
     border: dotted gray 1px;
 
     }  
@@ -359,7 +321,6 @@ margin: auto;
     #main3{
     grid-row: 4;
     grid-column: 1/ span 3;
-    background-color: lightblue; 
     border: dotted gray 1px;
 
     }
@@ -368,7 +329,6 @@ margin: auto;
     #footer4{
     grid-row: 5;
     grid-column: 1/ span 3;
-    background-color: lightblue;
     border: dotted gray 1px;
     }    
         
@@ -379,7 +339,7 @@ margin: auto;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #3f2738;
 }
 
 li {
@@ -395,11 +355,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #1c1219;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color:  #ae6597;
 }
 
         
@@ -422,7 +382,7 @@ form.example button {
   float: left;
   width: 20%;
   padding: 10px;
-  background: #2196F3;
+  background: var(--accent-one);
   color: white;
   font-size: 17px;
   border: 1px solid grey;
@@ -431,7 +391,7 @@ form.example button {
 }
 
 form.example button:hover {
-  background: #0b7dda;
+  background: var(--accent-one);
 }
 
 form.example::after {
