@@ -44,5 +44,3 @@ function noUser() {
 	// remove the auth body
 	document.body.classList.remove('auth');
 }
-
-   
