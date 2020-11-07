@@ -1,34 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--
-
-Upgrade your Assignment 4 so you can publish posts to a Firebase database.
-
-    Set up a Firebase Realtime Database for your project
-    Use JavaScript to create a user and send the user's username to the Firebase Database
-    Write JavaScript to let your users send their post to the database
-    Write JavaScript to display posts that have been sent to the database on your index page.
-    You may use the example on GitHub as a template.
-    Write an explanation of your process. You may use this template to help you write.-->
-
-
 	<title>Publish Database Example</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
 
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
-
-    
     <!-- We are also adding the auth.js SDK-->
     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
     <!-- And the database.js SDK-->
     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
+
+    <script>
+    // Your web app's Firebase configuration
+     var firebaseConfig = {
     apiKey: "AIzaSyDCvlMBiuzsCVgIeAF5yRq6W1qjopHA7-8",
     authDomain: "mmp350-dff07.firebaseapp.com",
     databaseURL: "https://mmp350-dff07.firebaseio.com",
@@ -40,6 +26,7 @@ Upgrade your Assignment 4 so you can publish posts to a Firebase database.
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
 </script>
 
 </head>
@@ -95,5 +82,3 @@ Upgrade your Assignment 4 so you can publish posts to a Firebase database.
 	</script>
 </body>
 </html>
-
-    

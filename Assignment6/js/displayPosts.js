@@ -26,5 +26,3 @@ function createPost(postData, userInfo, postId) {
 	post.appendChild(text);
 	post.appendChild(info);
 }
-
-  

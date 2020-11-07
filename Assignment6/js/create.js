@@ -12,6 +12,3 @@ signUpButton.onclick = function() {
 function onError(errorMessage) {
 	signUpMessage.textContent = errorMessage;
 }
-
- 
-
