@@ -32,15 +32,44 @@ li a:hover:not(.active) {
  }
 
 .active {
- color: var(--main);
+ background-color:darkgray;
+color: var(--accent-one)
 }
 
 /*title */
 
 #title-wrapper {
 	color: var(--accent-two);
+    
+}
+    
+#button {
+	background-color: var(--accent-six);
+	border-radius:4px;
+	border:1px solid var(--main);
+	display:inline-block;
+	color:var(--main);
+	padding:6px 24px;
+	text-decoration:none;
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-bottom: 15%;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
 
 }
+#button:hover {
+	background-color: darkred;
+    color: var(--accent-two);
+}
+#button:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+
 
 #container{
 	background-color: var(--accent-four);
