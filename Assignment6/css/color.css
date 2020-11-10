@@ -78,18 +78,16 @@ background-color: darkred;
 
 
 #write-post{
-	background-color: var(--accent-four)
+background-color: var(--accent-four)
 
 }
 
-.post {
-	background-color: var(--accent-six);
-	border: 1.5px solid var(--accent-one);
-}
+
+
 .post-text{
- color: var(--accent-three)
+ color: var(--accent-three);
+        
 
-;
 
 }
 .post-date{
@@ -98,4 +96,21 @@ background-color: darkred;
 .post-author{
  color: var(--main)
 }
+
+.post {
+background-color: var(--accent-six);
+
+    margin: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+   
+ }
+#posts{
+    padding-bottom: 2%;
+    padding: 3%;
+    width: 100%;
+    
+}
+
+
 
