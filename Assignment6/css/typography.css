@@ -73,3 +73,78 @@ h3 {
      font-family: 'Merriweather', serif;
     font-size: 1em;
 }
+
+#user-name{
+     font-family: 'Inconsolata', monospace;
+     font-style: bold;
+}
+
+#login-email{
+    height: auto;
+    font-size: 1em;
+     font-family: 'Inconsolata', monospace;
+    }
+#login-password{
+    height: auto;
+    font-size: 1em;
+     font-family: 'Inconsolata', monospace;
+    }
+    
+#login-button{
+    height: auto;
+    font-size: 1em; 
+     font-family: 'Inconsolata', monospace;
+    }
+#login-message{
+    height: auto;
+    font-size: 1em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+}
+    
+#logout-button{
+    height: auto;
+    font-size: 1.75em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    }
+
+       
+#sign-up-username{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+  
+    }
+    
+#sign-up-email{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;   
+    }
+
+
+#sign-up-password{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;     
+    }
+    
+#sign-up-button{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace; 
+    margin-bottom: 4%;
+    
+    }
+
+#submit-post{
+    margin-top: 3%;
+    
+}

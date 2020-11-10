@@ -53,7 +53,7 @@ color: var(--accent-one)
 	text-decoration:none;
     margin-top: 1%;
     margin-left: 15%;
-    margin-bottom: 15%;
+    margin-bottom: 1%;
     font-family: 'Merriweather', serif;
     font-size: 1.5em;
 
@@ -66,10 +66,6 @@ color: var(--accent-one)
 	position:relative;
 	top:1px;
 }
-
-        
-
-
 
 #container{
 	background-color: var(--accent-four);

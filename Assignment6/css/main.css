@@ -75,6 +75,8 @@ margin: 0 auto;
 
 #post-body{
 	width: 100%;
+    height: auto;
+    padding: 1.5%;
 }
 
 #submit-post {
