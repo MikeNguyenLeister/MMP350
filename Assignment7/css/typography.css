@@ -1,22 +1,260 @@
 /*
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Bungee', cursive;
+  font-family: 'Bungee Inline', cursive;
+font-family: 'Bungee Outline', cursive;
+    font-family: 'Inconsolata', monospace;
+
+    font-family: 'Merriweather', serif;
+
 */
 
-* {
-	font-family: 'Open Sans', sans-serif;
+
+
+#title {
+	 font-family: 'Bungee', cursive;
+	font-size: 6em;
+	margin-top: 3%;
+	margin-bottom: 0%;
 }
 
+#wrapper {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+}
+
+
+
 .post-text {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 300%;
+	font-family: 'Inconsolata', monospace;
+	font-size: 125%;
+	line-height: 2.3em;
+}
+
+.post-info {
+	font-family: 'Merriweather', serif;
+	line-height: 2em;
+	font-style: italic;
+
+	
+}
+
+.post-author{
+	 font-family: 'Merriweather', serif;
+	 line-height: 2em;
+	 font-weight: bold;
+	 font-style: normal;
+}
+.post-date{
+	 font-family: 'Merriweather', serif;
+	 line-height: 1.5em;
+	 font-style: italic;
+	 
 }
 
 #post-body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Inconsolata', monospace;
 	font-size: 150%;
+	line-height: 1.3em;
 }
 
 #submit-post {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Inconsolata', monospace;
 	font-size: 200%;
+}
+
+h1 {
+	font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 3em;
+	margin-top: 3%;
+}
+#container{
+     font-family: 'Merriweather', serif;
+    font-size: 1em;
+}
+
+#user-name{
+     font-family: 'Inconsolata', monospace;
+     font-style: bold;
+}
+
+#login-email{
+    height: auto;
+    font-size: 1em;
+     font-family: 'Inconsolata', monospace;
+    }
+#login-password{
+    height: auto;
+    font-size: 1em;
+     font-family: 'Inconsolata', monospace;
+    }
+    
+#login-button{
+    height: auto;
+    font-size: 1em; 
+     font-family: 'Inconsolata', monospace;
+    }
+#login-message{
+    height: auto;
+    font-size: 1em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+}
+    
+#logout-button{
+    height: auto;
+    font-size: 1.75em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    }
+
+       
+#sign-up-username{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+  
+    }
+    
+#sign-up-email{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;   
+    }
+
+
+#sign-up-password{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;     
+    }
+    
+#sign-up-button{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace; 
+    margin-bottom: 4%;
+    
+    }
+
+#submit-post{
+    margin-top: 3%;
+    
+}
+
+
+#edit-profile-link{
+    height: auto;
+    font-size: 1.75em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#create-new-account{
+    height: auto;
+    font-size: 1.75em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+
+#profile-display-name{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#profile-bio{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+            
+            
+#social-media-twitter{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+}
+#social-media-ig{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+    
+}
+#social-media-facebook{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+} 
+#youtube{
+    
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+}
+ 
+#tiktok{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+}
+
+#website{
+    height: auto;
+    font-size: 1.4em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+}
+
+#update-profile{
+    height: auto;
+    font-size: 1.75em;  
+    font-family: 'Inconsolata', monospace;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
 }

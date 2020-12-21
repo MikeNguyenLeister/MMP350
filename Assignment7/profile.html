@@ -1,4 +1,11 @@
 <!-- This is my profile.html file for the user's profile page -->
+<!--
+    Update your Assignment 7 and create a profile.html page for the user.
+    Choose two new data fields to include in the user profile. These should be original to your application. Something such as social media handle, gaming screenname, a user's website, or a link to a location on Google Maps.
+    You may use the example on GitHub as a template.
+    Write an explanation of your process. You may use this template to help you write.-->
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,30 +15,50 @@
 
 
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
     <!-- We are also adding the auth.js and database.js SDK-->
-    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
-    <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-    apiKey: "AIzaSyDiqr8W5aAyWsN17VxotM8Saf2ss2XQCv4",
-    authDomain: "mmp350-unit-2.firebaseapp.com",
-    databaseURL: "https://mmp350-unit-2.firebaseio.com",
-    projectId: "mmp350-unit-2",
-    storageBucket: "mmp350-unit-2.appspot.com",
-    messagingSenderId: "208695045080",
-    appId: "1:208695045080:web:e7991caa179807399a60ad"
-	};
-	// Initialize Firebase
-	firebase.initializeApp(firebaseConfig);
-	</script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+   <script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDCvlMBiuzsCVgIeAF5yRq6W1qjopHA7-8",
+    authDomain: "mmp350-dff07.firebaseapp.com",
+    databaseURL: "https://mmp350-dff07.firebaseio.com",
+    projectId: "mmp350-dff07",
+    storageBucket: "mmp350-dff07.appspot.com",
+    messagingSenderId: "323317949445",
+    appId: "1:323317949445:web:8331321b1787c81c79286c",
+    measurementId: "G-VPHPMLQE1Q"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+    
 </head>
-<body>
+    
+    <div id="monochromatic">
+<body class="body-color">
+     <div id="title-wrapper"><div id="title">If I...</div><h3>Your Show & Movie 
+<span style='font-size:125px;'>&#128488;</span> </h3></div>
+<!--https://www.w3schools.com/charsets/tryit.asp?deci=128488 !-->
+<div id="wrapper">
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="post.html">Posts</a></li>
+  <li><a href="#">Contact</a></li>
+  <li style="float:right"><a class="active" href="profile.html">Profile</a></li>
+</ul>
+</div>
+    
+    
+    
     <div id="container">
     	<div id="heading">
-			<h1>Profile Page</h1>
-			<h4>MMP 350 Fall 2020</h4>
+			<h3>Edit Profile</h3>
 		</div>
 		<!-- elements to let users login -->
 		<div id="login">
@@ -39,19 +66,29 @@
         	<input type="password" id="login-password" placeholder="Password">
         	<button id="login-button">Login</button>
         	<p id="login-message"></p>
-            <p><a href="create.html">Create a new account</a>.</p>
+            <p><button id="create-new-account"><a href="create.html">Create New Account</a></button></p>
+            
         </div>
 		<!-- elements in case user is logged in -->
         <div id="user-info">
         	Hello
-        	<div id ="user-name"></div>
+        	<div id="user-name"></div>
         	<button id="logout-button">Log Out</button>
         </div>
+        
 
         <div id="profile">
-        	<input id="profile-display-name" placeholder="Update my username">
-        	<textarea id="profile-bio" placeholder="Add your bio"></textarea>
-        	<button id="update-profile">Update Profile</button>
+        	<input id="profile-display-name" placeholder="Update my username"><br>
+        	<textarea id="profile-bio" placeholder="Add your bio"></textarea><br>
+            
+            
+            <textarea id="social-media-twitter" placeholder="Add your Twitter"></textarea><br>
+        <textarea id="social-media-ig" placeholder="Add your Instagram"></textarea><br>
+<textarea id="social-media-facebook" placeholder="Add your Facebook"></textarea><br>
+            <textarea id="youtube" placeholder="Add your YouTube"></textarea><br>
+                <textarea id="tiktok" placeholder="Add your TikTok"></textarea><br>
+             <textarea id="website" placeholder="Add your Website"></textarea><br>
+            <button id="update-profile">Update Profile</button>
         </div>
     </div>
 
@@ -61,4 +98,5 @@
     <script src="js/profile.js"></script>
 
 </body>
+    </div>
 </html>
