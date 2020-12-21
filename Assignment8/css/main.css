@@ -1,0 +1,97 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+
+
+#title-wrapper {
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+body {
+	
+height:100%;
+line-height: 2em;
+max-width: 90%;
+margin: 0 auto;
+
+
+}
+
+.wrapper {
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+}
+
+#container {
+	max-width: 65%;
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+
+}
+
+#write-post {
+	padding-bottom: 100px;
+}
+
+#post-body{
+	width: 100%;
+    height: auto;
+    padding: 1.5%;
+}
+
+
+
+body.auth #login {
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+body.auth #user-info {
+	padding-top: 5%;
+	padding-bottom: 20px;
+}
+
+
+#container{
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+#profile-image {
+    width: 200px;
+}
+

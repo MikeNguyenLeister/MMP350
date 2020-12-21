@@ -1,0 +1,116 @@
+#monochromatic {
+  --main-hue: 0;
+  --main: hsl(var(--main-hue), 75%, 50%);
+  --accent-one: hsl(var(--main-hue), 20%, 20%);
+  --accent-two: hsl(var(--main-hue), 75%, 90%);
+   --accent-three: hsl(var(--main-hue), 0%, 0%);
+   --accent-four: hsl(var(--main-hue), 30%, 80%);
+   --accent-five: hsl(var(--main-hue), 100%, 44%);
+   --accent-six: hsl(var(--main-hue), 65%, 95%);
+
+}
+
+
+h1{
+	color: var(--accent-three);
+}
+
+/*nav bar colors */
+
+ul{
+	background-color: var(--accent-three);
+}
+
+li a {
+	  color: var(--accent-two);
+
+}
+
+li a:hover:not(.active) {
+  background-color: var(--accent-one);
+
+ }
+
+.active {
+ background-color:darkgray;
+color: var(--accent-one)
+}
+
+/*title */
+
+#title-wrapper {
+	color: var(--accent-two);
+    
+}
+    
+#button {
+	background-color: var(--accent-six);
+	border-radius:4px;
+	border:1px solid var(--main);
+	display:inline-block;
+	color:var(--main);
+	padding:6px 24px;
+	text-decoration:none;
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-bottom: 1%;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+
+}
+#button:hover {
+	background-color: darkred;
+    color: var(--accent-two);
+}
+#button:active {
+	position:relative;
+	top:1px;
+}
+
+#container{
+	background-color: var(--accent-four);
+}
+
+body{
+background-color: darkred;
+
+}
+
+
+#write-post{
+background-color: var(--accent-four)
+
+}
+
+
+
+.post-text{
+ color: var(--accent-three);
+        
+
+
+}
+.post-date{
+  color: var(--accent-one)
+}
+.post-author{
+ color: var(--main)
+}
+
+.post {
+background-color: var(--accent-six);
+
+    margin: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+   
+ }
+#posts{
+    padding-bottom: 2%;
+    padding: 3%;
+    width: 100%;
+    
+}
+
+
+
