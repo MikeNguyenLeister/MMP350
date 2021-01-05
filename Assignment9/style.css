@@ -6,7 +6,7 @@ body{
 
   #container{
     width: 960px;
-    max-width: 0px auto;
+    margin: 0px auto;
     background-color:white;
 
   }
