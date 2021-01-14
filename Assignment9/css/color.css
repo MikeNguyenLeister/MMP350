@@ -21,6 +21,11 @@
 .My-Color-Theme-4-hsla { color: hsla(183, 92, 46, 1); }
 .My-Color-Theme-5-hsla { color: hsla(262, 85, 48, 1); }
 
+#sidebar3{
+        background-color:rgba(230, 111, 32, 1);
+        color:white;
+    }   
+
 
 .menu-item{
 	background-color:rgba(230, 32, 107, 1);
@@ -40,9 +45,7 @@
     color: rgba(230, 224, 94, 1); 
 }
     
-#sidebar2{
-    background-color: rgba(230, 111, 32, 1);
-  }    
+  
     
 #main{
     background-color:rgba(230, 32, 107, 1); 
@@ -81,15 +84,17 @@ body{
     background-color: rgba(9, 217, 230, 1); 
     }    
     
-
+#sidebar2{
+    background-color: rgba(230, 111, 32, 1);
+  }  
+    
  #footer{      
     background-color:rgba(98, 18, 230, 1);
     color: white;   
   }    
 
 @media (max-width:400px){
-  /* mobile phones*/
-   body{
-    background-color: rgba(230, 224, 94, 1);
-  }
+/* Mobile Phones. Note - color.css refuses to acknowledge color changes in phone viewport except when I put color changes in main.css. It does the same when I try changing the footer colors. */ 
+    
+    
 }    

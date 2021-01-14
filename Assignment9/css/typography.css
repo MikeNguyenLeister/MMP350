@@ -19,11 +19,18 @@ font-family: 'Frijole', cursive;
 font-family: 'Montserrat', sans-serif;
 }
 
+
 #sidebar2{
 font-family: 'Montserrat', sans-serif;  
 text-transform: uppercase;
 font-weight: bold;
 
+}
+
+#sidebar3{
+font-family: 'Montserrat', sans-serif;  
+text-transform: uppercase;
+font-weight: bold;
 }
 
 #main{

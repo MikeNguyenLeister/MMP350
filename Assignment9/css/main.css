@@ -57,6 +57,9 @@ background: #09D9E6;
     #sidebar2{
         display:none;
     }
+    #sidebar3{
+        display:none;
+    }
     
 /*grid*/    
   #container{
@@ -211,6 +214,9 @@ height: auto;
     #sidebar{
         display:none;
     }
+    #sidebar3{
+        display:none;
+    }
   #container{
     /*background-color:white; */
     display:grid;
@@ -283,8 +289,13 @@ height: auto;
   }
 }
 @media (max-width:400px){
-  /* mobile phones*/
+  /* mobile phones* I'm unable to change the background color in the mobile phone media query on color.css except if I place outside the media quaries. */
   
+ body{
+    background-color:rgba(230, 224, 94, 1);
+  }
+
+    
 
 /*hidden id's */
     
@@ -296,12 +307,15 @@ height: auto;
     }
     #sidebar{
         display:none;
-    }    
+    }   
+    #sidebar2{
+        display:none;
+    }
     
 
   #container{
     display:grid;
-    grid-template-rows: 30% 30% 40% 40% 30% 30% 35%;
+    grid-template-rows: 35% 35% 60% 50% 100% 100% 50%;
   }
     
   .header2{
@@ -331,15 +345,23 @@ height: auto;
     
         
   }
-  #sidebar2 {
+  #sidebar3 {
     grid-row:2;
-    font-size:.5em;
+    font-size:6vw;
+    text-align: center; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right:5%;
+    letter-spacing: .75vw;
+    word-spacing: 1.75vw;
+      
     }
      
     #slider{
     grid-row: 3;      
     background-image:url('images/slider.png');
-    background-size: contain;
+    background-size: cover;
     }
   #main {
     grid-row:4;
@@ -349,14 +371,14 @@ height: auto;
 #content1{
     grid-row: 5;
     background-image: url('images/clearance.png');
-    background-size: contain;    
+    background-size: cover;    
 
 }
 
 #content2{
     grid-row: 6;
      background-image:url('images/discounts.png');
-    background-size: contain;
+    background-size: cover;
 }
   #footer {
     grid-row:7;
