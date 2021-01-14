@@ -319,11 +319,13 @@ height: auto;
   }
     
   .header2{
-    width: 75%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding-top: 1%;        
+    padding-top: 10%; 
+    padding-left: 3%;
+    padding-right: 3%;
     }
     
     .header-item{
@@ -334,6 +336,9 @@ height: auto;
         flex-grow: 2;
         padding-left: 1%;
     }
+    
+    
+    
    #header2{
     grid-row: 1;
     letter-spacing: .25vw;
